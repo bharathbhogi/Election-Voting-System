@@ -51,6 +51,6 @@ switch(choice)
 case 1: castVote();break;
 case 2: votesCount();break;
 case 3: getLeadingCandidate();break; default: printf("\n Error: Invalid Choice"); }
-}while(choice!=0);
+}while(choice!= 0);
 //hold the screen getchar();
 return 0; }
